@@ -3,7 +3,7 @@ import styles from "../style";
 
 const AboutUs = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <section id="About_us" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
       <h2 className={`${styles.heading2} mb-4 md:mb-0`}>
         The Team!
       </h2>

@@ -8,6 +8,5 @@ export default defineConfig({
   base: "/higuy_landing/",
   build: {
     outDir: 'build',
-  },
-  publicDir: 'public'
+  }
 });
