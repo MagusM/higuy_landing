@@ -1,30 +1,30 @@
-import discount from './assets/Discount.svg';
-import send from './assets/Send.svg';
-import shield from './assets/Shield.svg';
-import star from './assets/Star.svg';
-import airbnb from './assets/airbnb.png';
-import apple from './assets/apple.svg';
-import arrowUp from './assets/arrow-up.svg';
-import bill from './assets/bill.png';
-import binance from './assets/binance.png';
-import card from './assets/card.png';
-import close from './assets/close.svg';
-import coinbase from './assets/coinbase.png';
-import dropbox from './assets/dropbox.png';
-import facebook from './assets/facebook.svg';
-import google from './assets/google.svg';
-import logo from './assets/higuy_logo.png';
-import instagram from './assets/instagram.svg';
-import linkedin from './assets/linkedin.svg';
-import menu from './assets/menu.svg';
-import people01 from './assets/people01.png';
-import people02 from './assets/people02.png';
-import people03 from './assets/people03.png';
-import quotes from './assets/quotes.svg';
-import robot from './assets/robot.png';
-import simon from './assets/simon.jpeg';
-import talia from './assets/talia.jpeg';
-import twitter from './assets/twitter.svg';
+import discount from '../assets/Discount.svg';
+import send from '../assets/Send.svg';
+import shield from '../assets/Shield.svg';
+import star from '../assets/Star.svg';
+import airbnb from '../assets/airbnb.png';
+import apple from '../assets/apple.svg';
+import arrowUp from '../assets/arrow-up.svg';
+import bill from '../assets/bill.png';
+import binance from '../assets/binance.png';
+import card from '../assets/card.png';
+import close from '../assets/close.svg';
+import coinbase from '../assets/coinbase.png';
+import dropbox from '../assets/dropbox.png';
+import facebook from '../assets/facebook.svg';
+import google from '../assets/google.svg';
+import logo from '../assets/higuy_logo.png';
+import instagram from '../assets/instagram.svg';
+import linkedin from '../assets/linkedin.svg';
+import menu from '../assets/menu.svg';
+import people01 from '../assets/people01.png';
+import people02 from '../assets/people02.png';
+import people03 from '../assets/people03.png';
+import quotes from '../assets/quotes.svg';
+import robot from '../assets/robot.png';
+import simon from '../assets/simon.jpeg';
+import talia from '../assets/talia.jpeg';
+import twitter from '../assets/twitter.svg';
 
 export {
   airbnb,
@@ -53,5 +53,5 @@ export {
   simon,
   star,
   talia,
-  twitter
+  twitter,
 };
