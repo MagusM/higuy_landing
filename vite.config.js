@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [
     react()
   ],
-  base: "/higuy_landing/",
   build: {
     outDir: 'build',
   }

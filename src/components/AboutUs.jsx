@@ -11,7 +11,7 @@ const AboutUs = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:p-4 gap-8 h-full flex-1">
         {aboutUs.map((person, index) => (
           <div key={index} className="flex-1 h-full flex justify-between items-start flex-col w-full md:w-2/3 md:p-4 gap-6">
-            <img src={person.pic} alt={`${person.name}_img`} className="w-[50px] h-[50px] rounded-md" />
+            <img src={person.pic} alt={`${person.name}_img`} className="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-md" />
             <div className="w-full flex justify-start items-center gap-4">
               <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
                 {person.name}
