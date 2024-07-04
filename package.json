@@ -1,12 +1,15 @@
 {
-  "name": "higuy_lanidng",
+  "name": "higuy_landing",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://your-username.github.io/your-repository",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "bun vite",
+    "build": "bun vite build",
+    "preview": "bun vite preview",
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -d build"
   },
   "author": {
     "name": "Simon Mor",
@@ -14,6 +17,7 @@
     "url": "https://simonmor.com"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
